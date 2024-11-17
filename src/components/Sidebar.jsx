@@ -9,6 +9,7 @@ function Sidebar() {
     <div className={styles.sidebar}>
       <Logo />
       <AppNav />
+      {/* Outlet tag lets the content to be projected in the UI */}
       <Outlet />
       <Footer />
     </div>
